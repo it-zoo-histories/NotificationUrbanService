@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://172.17.0.2:5432/urban
+    url: jdbc:postgresql://77.83.174.207:5432/urban
     username: postgres
-    password:
+    password: docker
 
   jpa:
     show-sql: true

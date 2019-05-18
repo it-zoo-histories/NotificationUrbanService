@@ -11,7 +11,7 @@ import org.springframework.messaging.simp.config.MessageBrokerRegistry
 @EnableWebSocketMessageBroker
 class WebSocketConfig : WebSocketMessageBrokerConfigurer {
     companion object {
-        private const val WEB_SOCKET_ADDRESS = "/stopy-singer"
+        private const val WEB_SOCKET_ADDRESS = "/stopy_singer"
         private const val BROKER_NAME = "/stop"
     }
 
